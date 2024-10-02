@@ -1,0 +1,215 @@
+.box1{
+  background-color: rgb(253, 10, 10);
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.box2{
+  background-color: rgb(6, 75, 52);
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.box3{
+  background-color: orange;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.box4{
+  background-color: deeppink;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.box5{
+  background-color: aliceblue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.circle{
+  background-color: red;
+width: 100px;
+height: 100px;
+position: absolute;
+top: 50%;
+left: 50%;
+border-radius: 100%; 
+transform: translate(-50%,-50%);
+}
+
+.box1box{
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  border-radius: 100%;
+}
+.box1cricle{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 29%;
+  left: 21.5%;
+  transform: translate(-50%,-50%);
+
+}
+.box2box{
+  background-color: white;
+  width:200px;
+  height: 200px;
+  position: fixed;
+  top: 15%;
+  right: 15%;
+  border-radius: 100%;
+
+
+}
+.box2cricle{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 29%;
+  right: 15%;
+  transform: translate(-50%,-50%);
+}
+
+.box3box{
+  background-color: white;
+  width:200px;
+  height: 200px;
+  position: fixed;
+  bottom: 18%;
+  right: 15%;
+  border-radius: 100%;
+
+
+}
+.box3cricle{
+  background-color:red;
+  width:100px;
+  height: 100px;
+  position: absolute;
+  bottom: 24%;
+  right: 18%;
+
+
+ 
+}
+
+.box4box{
+  background-color: white;
+  width:200px;
+  height: 200px;
+  position: fixed;
+  bottom: 10%;
+  left: 15%;
+  border-radius: 100%;
+
+
+}
+
+.box4cricle{
+  background-color:red;
+  width:100px;
+  height: 100px;
+  position: absolute;
+  bottom: 16%;
+  left: 18%;
+
+}
+.borderbox2{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100%;
+}
+
+.borderbox3{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+}
+.borderbox1{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 100%;
+}
+.borderbox4{
+background-color: white;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 100%;
+}
+.borderbox1-1{
+background-color: white;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  right: 670px;
+  border-bottom-right-radius: 100%;
+
+}
+.borderbox2-1{
+background-color: white;
+
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 670px;
+  border-top-right-radius: 100%;
+}
+
+.borderbox3-1{
+background-color: white;
+  
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 666px;
+  border-top-left-radius: 100%;
+
+}
+.borderbox4-1{
+background-color: white;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 666px;
+  border-bottom-left-radius: 100%;
+}

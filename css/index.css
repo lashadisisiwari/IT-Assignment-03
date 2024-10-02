@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: black 1px 52px 22px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.nav-links nav ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  margin-right: 50px;
+}
+
+.nav-links nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links nav ul li a:hover{
+    color: red;
+}
+
+.nav-links nav ul li a:active{
+    color: red;
+}
+
+#title {
+  font-size: 24px;
+  font-weight: 700;
+  color: red;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: black;
+}    
+
+.profile-image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 200px;
+}
+
+.info .information p{
+    margin-left: 200px;
+    font-size: 18px;
+    line-height: 45px;
+    color: white;
+}
+
+
+
+
